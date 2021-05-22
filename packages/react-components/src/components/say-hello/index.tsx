@@ -5,7 +5,7 @@ const SayHello: React.FC<SayHelloProps> = ({ name }) => {
   const [intervalId, setIntervalId] = useState<number>();
 
   useEffect(() => {
-    const id = setInterval(() => {
+    const id = window.setInterval(() => {
       setCount((prev) => prev - 1);
     }, 1000);
     setIntervalId(id);
