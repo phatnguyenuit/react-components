@@ -1,12 +1,10 @@
-import { SayHello } from '@phatnguyenuit/react-components';
-import Page1 from 'containers/page1';
+import HelloPage from 'containers/hello-page';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Page1 />
-      <SayHello name="Fast Nguyen" />
+      <HelloPage />
     </div>
   );
 }
