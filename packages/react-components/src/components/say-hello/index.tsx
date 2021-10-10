@@ -23,7 +23,7 @@ const SayHello: React.FC<SayHelloProps> = ({ name }) => {
 
   const message = count === 0 ? `Hey ${name}, say hello to TypeScript.` : count;
 
-  return <div>{message}</div>;
+  return <p>{message}</p>;
 };
 
 export default SayHello;
